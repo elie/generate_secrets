@@ -1,6 +1,6 @@
 # Generate Secrets
 
-Easily generate a `secrets.yml` file when it has been gitignore-d
+Easily generate a `secrets.yml` file with a secret key for all environments when it has been gitignore-d
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To generate a `secrets.yml` file, run 
+
+    $ rails g secrets
 
 ## Development
 
