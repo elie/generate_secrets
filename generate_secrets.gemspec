@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["eschoppik@gmail.com"]
 
   spec.summary       = %q{Generate a secrets.yml file if you are using an app that has gitignore-d it}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/elie/generate_secrets"
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
